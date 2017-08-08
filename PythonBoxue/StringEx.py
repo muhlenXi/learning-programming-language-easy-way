@@ -18,4 +18,4 @@ print(welcome.upper())
 print(welcome.lower())
 print(action.strip())
 
-print(action[0:3])
+print(action[0:4])
