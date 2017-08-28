@@ -1,3 +1,11 @@
+
+print("%s World!" % "Hello")
+print("%s %s" % ("Hello", "World!"))
+print("{0} {1}".format("Hello", "World!"))
+
+welcome = {"action":"Hello", "name":"World"}
+print("{action} {name}!".format(**welcome))
+
 stringInDoubleQuotes = "Hello Python!"
 stringInSingleQuotes = 'Hello Python!'
 stringInTripleQuotes = '''Hello Python!
