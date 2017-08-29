@@ -1,5 +1,10 @@
 # 在 Python 中使用循环
 
+num = 1;
+while num < 10:
+    print(num)
+    num +=  1
+
 for num in range(1, 5):
     print(num)
 
