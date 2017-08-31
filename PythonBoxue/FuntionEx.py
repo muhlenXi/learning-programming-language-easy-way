@@ -1,7 +1,7 @@
 def a_stub_fuction():
     pass
 
-# 固定参数
+# 参数个数固定，带有默认值
 def add(m=1,n=2):
     return m + n
 
