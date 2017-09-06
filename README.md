@@ -1,5 +1,9 @@
 ## Python concept
 
+[Python](https://www.python.org/) 的定位：“优雅”，“明确”， “简单”。
+
+* [Python 是什么？](https://github.com/muhlenXi/PythonEx/blob/master/Files/AboutPython.md)
+* [Python 解释器](https://github.com/muhlenXi/PythonEx/blob/master/Files/PythonInterpreter.md)
 * [String](https://github.com/muhlenXi/PythonEx/blob/master/Files/String.md)
 * [List](https://github.com/muhlenXi/PythonEx/blob/master/Files/List.md)
 * [Tuple](https://github.com/muhlenXi/PythonEx/blob/master/Files/Tuple.md)
