@@ -4,6 +4,8 @@
 
 * [Python 是什么？](https://github.com/muhlenXi/PythonEx/blob/master/Files/AboutPython.md)
 * [Python 解释器](https://github.com/muhlenXi/PythonEx/blob/master/Files/PythonInterpreter.md)
+* [Python 编程注意事项](https://github.com/muhlenXi/PythonEx/blob/master/Files/notice.md)
+* [输入输出](https://github.com/muhlenXi/PythonEx/blob/master/Files/inputAndOutput.md)
 * [String](https://github.com/muhlenXi/PythonEx/blob/master/Files/String.md)
 * [List](https://github.com/muhlenXi/PythonEx/blob/master/Files/List.md)
 * [Tuple](https://github.com/muhlenXi/PythonEx/blob/master/Files/Tuple.md)
