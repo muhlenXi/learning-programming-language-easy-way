@@ -1,18 +1,44 @@
 ### 自定义函数
 
-1、无参无返回值
+*Python 中的所有函数，都是有返回值的，不指定 return 语句则会返回 None。*
+
+1、无参
 
 ```python
 def a_stub_function():
 	pass
 ```
 
-2、参数个数固定，带有默认值
+2、参数个数固定
 
 ```python
-def and(m=1, n=2):
+def sum(a, b):
 	return a + b
+	
+	
+sum(2, 3)		# 调用方式一
+sum(b=2, a=2)		# 调用方式二
 ```
+
+其中，参数 a，b 被称为 positional argument（位置参数）。因为调用函数时传入的两个值按照位置顺序会依次赋给 a 和 b。
+
+调用方式二为使用 keyword argument 调用，调用参数的顺序可以是随意的。
+
+3、参数个数固定，带有默认值
+
+```python
+def sum(m=1, n=2):
+    return m + n
+
+
+print(sum())    # 使用了默认值 m，n
+print(sum(3))   # 使用了默认值 n
+print(sum(3, 3))    # 未使用默认值
+print(sum(n=2))     # 使用了默认值 m  在此感谢 11 的指点
+```
+
+函数的默认参数定义，只能是从右往左依次定义的。我们不能指定 m 的默认值，而不指定 n 的默认值。
+
 
 3、可变参数列表
 
