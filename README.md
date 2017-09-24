@@ -1,3 +1,7 @@
+## Head First Python
+
+* [Head First Python](https://github.com/muhlenXi/PythonEx/blob/master/Files/HeadFirstPython.md)
+
 ## Python concept
 
 [Python](https://www.python.org/) 的定位：“优雅”，“明确”， “简单”。
