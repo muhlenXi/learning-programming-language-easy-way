@@ -1,55 +1,33 @@
-### List
-
-#### 创建
+### list
 
 ```python
+# 创建
 numberList = [] 
 numberList = list()
-```
 
-#### 合并
-
-```python
+# 合并
 numberList2 = [numberList + numberList1]
 numberList2 = numberList1.extend(numberList)
 numberList.append(9)
-```
 
-#### 排序
-
-```python
+# 排序
 numberList.sort()
-```
 
-#### 访问
-
-```python
+# 访问
 numberList[0] # 单索引
 numberList[0:3] # range 索引
-```
 
-#### 插入元素
-
-```python
+# 插入
 numberList.insert(0, "Mars")
-```
 
-#### 删除元素
-
-```python
+# 删除
 numberList.pop(0) # 删除并返回指定元素
 numberList.remove(0)
 del(numberList[0:5]) # 参数是list的切片
-```
 
-#### 获取元素个数
-
-```python
+# 获取元素个数
 len(numberList)
-```
 
-#### 查询是否存在某个元素
-
-```python
+# 查询
 numberList.index(2)
 ```

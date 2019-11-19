@@ -1,14 +1,8 @@
 ### 类
 
-Mark: [from Boxue](https://www.boxueio.com/series/python-101/ebook/288)
-
-#### 类的声明
-
-
 ```python
-class Person:
 """A general person class."""
-
+class Person:
 	# 初始化方法
 	def __init__(self, name, age):
 		self.name = name
@@ -22,11 +16,8 @@ class Person:
 	def wakeup(self, at):
 		print('{0} wakeup at {1} am'.format(self.name, at))
 	
-```
-
-#### 创建类对象及访问
-
-```python
+	
+# 创建类对象及访问
 mars = Person('Mars', 30)
 
 mars.name
@@ -49,7 +40,6 @@ delattr(mars, "name")
 ```python
 from Person import Person
 
-
 class Employee(Person):
 	__count = 0 # 静态属性
 	
@@ -58,11 +48,9 @@ class Employee(Person):
 		self.work_id = work_id	
 		
 		Employee.__count +=  1
-```
 
-#### 判断类关系
 
-```python
+# 判断类关系
 mars = Employee(11, 'Mars', 30)
 
 # 判断是否是另一个类的子类
@@ -70,10 +58,12 @@ issubclass(Employee, Person)
 
 # 判断是否是某各类的对象
 isinstance(mars, Person)
-
 ```
 
 #### `__repl__` 和 `__str__`
 
 * 首先，`__str__` 是通过 `__repr__` 实现的，因此， 它的默认实现没有什么特别的用途；
 *  其次， `__repr__` 是给一个类型的开发者使用的，它应该包含关于类型的更多信息；而 `__str__` 的描述则是针对类型的使用者，它应该尽可能易读，友好；
+
+Mark: [from Boxue](https://www.boxueio.com/series/python-101/ebook/288)
+
