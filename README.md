@@ -1,26 +1,22 @@
-## Head First Python
+# Program Language
 
-* [Head First Python](https://github.com/muhlenXi/PythonEx/blob/master/Files/HeadFirstPython.md)
-
-## Python concept
-
-[Python](https://www.python.org/) 的定位：“优雅”，“明确”， “简单”。
-
-* [Python 是什么？](https://github.com/muhlenXi/PythonEx/blob/master/Files/AboutPython.md)
-* [Python 解释器](https://github.com/muhlenXi/PythonEx/blob/master/Files/PythonInterpreter.md)
-* [Python 编程注意事项](https://github.com/muhlenXi/PythonEx/blob/master/Files/notice.md)
-* [输入输出](https://github.com/muhlenXi/PythonEx/blob/master/Files/inputAndOutput.md)
-* [String](https://github.com/muhlenXi/PythonEx/blob/master/Files/String.md)
-* [List](https://github.com/muhlenXi/PythonEx/blob/master/Files/List.md)
-* [Tuple](https://github.com/muhlenXi/PythonEx/blob/master/Files/Tuple.md)
-* [Dictionary](https://github.com/muhlenXi/PythonEx/blob/master/Files/Dictionary.md)
-* [Condition 条件分支语句](https://github.com/muhlenXi/PythonEx/blob/master/Files/Condition.md)
-* [Loop 循环语句](https://github.com/muhlenXi/PythonEx/blob/master/Files/Loop.md)
-* [Comprehension](https://github.com/muhlenXi/PythonEx/blob/master/Files/comprehension.md)
-* [异常处理](https://github.com/muhlenXi/PythonEx/blob/master/Files/error_handle.md)
-* [第三方代码的引入](https://github.com/muhlenXi/PythonEx/blob/master/Files/import.md)
-* [自定义函数](https://github.com/muhlenXi/PythonEx/blob/master/Files/function.md)
-* [class](https://github.com/muhlenXi/PythonEx/blob/master/Files/class.md)
-
-
-
+## Basic syntax
+ 
+| Component | Swift| Java | Python |
+| :------: | :------: | :------: | :------: |
+| 字符串 | [String](./Swift/Files/String.md) |  |  |
+| 整型 | [Int](./Swift/Files/Int.md) |  |  |
+| 单精度浮点型 | [Float](./Swift/Files/Float.md) |  |  |
+| 双精度浮点型 | [Double](./Swift/Files/Double.md) |  |  |
+| 布尔类型 | [Bool](./Swift/Files/Bool.md) |  |  |
+| 数组 | [Array](./Swift/Files/Array.md) |  |  |
+| 字典 | [Dictionary](./Swift/Files/Dictionary.md) |  |  |
+| 集合 | [Set](./Swift/Files/Set.md) |  |  |
+| 循环 | [for](./Swift/Files/for.md) |  |  |
+| 循环 | [while](./Swift/Files/while.md) |  |  |
+| 枚举 | [enum](./Swift/Files/enum.md) |  |  |
+| 元组 | [Tuple](./Swift/Files/Tuple.md) |  |  |
+| 函数 | [func](./Swift/Files/func.md) |  |  |
+| 协议 | [protocol](./Swift/Files/protocol.md) |  |  |
+| 结构体 | [struct](./Swift/Files/struct.md) |  |  |
+| 类 | [class](./Swift/Files/class.md) |  |  |
