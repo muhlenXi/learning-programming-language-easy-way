@@ -5,10 +5,15 @@
 numberList = [] 
 numberList = list()
 
+# 获取元素个数
+len(numberList)
+
+# 添加元素
+numberList.append(9)
+numberList.append([7, 8])
+
 # 合并
 numberList2 = [numberList + numberList1]
-numberList2 = numberList1.extend(numberList)
-numberList.append(9)
 
 # 排序
 numberList.sort()
@@ -24,9 +29,6 @@ numberList.insert(0, "Mars")
 numberList.pop(0) # 删除并返回指定元素
 numberList.remove(0)
 del(numberList[0:5]) # 参数是list的切片
-
-# 获取元素个数
-len(numberList)
 
 # 查询
 numberList.index(2)

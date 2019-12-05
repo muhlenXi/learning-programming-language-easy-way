@@ -33,6 +33,8 @@ setattr(mars, "name", "11")
 # 删除对象的属性
 delattr(mars, "name")
 
+# 删除对象
+del(mars)
 ```
 
 #### 类的继承
@@ -50,7 +52,7 @@ class Employee(Person):
 		Employee.__count +=  1
 
 
-# 判断类关系
+# 初始化
 mars = Employee(11, 'Mars', 30)
 
 # 判断是否是另一个类的子类
@@ -58,6 +60,7 @@ issubclass(Employee, Person)
 
 # 判断是否是某各类的对象
 isinstance(mars, Person)
+isinstance(mars, Employee)
 ```
 
 #### `__repl__` 和 `__str__`

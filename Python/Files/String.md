@@ -8,6 +8,9 @@ Hello, World!
 Hello, Everybody!
 '''
 
+# 字符个数
+len(welcome)
+
 # 拼接
 string2 = string + string1
 
